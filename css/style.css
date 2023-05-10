@@ -1,0 +1,56 @@
+@import url(./reset.css);
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4a752c91;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay__text {
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.overlay__button {
+    padding: 20px 40px;
+    font-size: 20px;
+    background-color: #aad751;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.start__button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 40px;
+    font-size: 20px;
+    background-color: #eaece9;
+    color: #4a752c;
+    border: 2px solid #4a752c;
+    border-radius: 10px;
+    cursor: pointer;
+}
